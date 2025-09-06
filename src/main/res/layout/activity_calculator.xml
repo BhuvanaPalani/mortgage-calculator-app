@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="24dp"
+    tools:context=".CalculatorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:src="@drawable/mortgage"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:text="@string/amount_you_want_to_borrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/etLoanAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/loan_amount"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/light_grey"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:text="@string/yearly_interest_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/etInterestRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/interest_rate"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/light_grey"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:text="@string/years_to_payback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/etYears"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/payback_time"
+            android:inputType="number"
+            android:textColorHint="@color/light_grey"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0_kr_month"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate_mortgage"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:backgroundTint="@color/orange"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="32dp"
+            android:padding="12dp"/>
+    </LinearLayout>
+
+</ScrollView>

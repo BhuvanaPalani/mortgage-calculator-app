@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">Module 201 - Project 2</string>
+    <string name="lt_finance">LT Finance</string>
+    <string name="the_mortgage_platform_nof_the_future">The mortgage platform\nof the future</string>
+    <string name="welcome">Welcome</string>
+    <string name="lt_finance_helps_you_calculate_nand_apply_for_mortgages_in_nover_100_banks">LT Finance helps you calculate\nand apply for mortgages in\nover 100+ banks</string>
+    <string name="get_started">Get Started</string>
+    <string name="apply_to_over_100_banks_and_after_a_nfew_minutes_you_will_receive_the_money_nto_your_bank_account">Apply to over 100+ banks and after a\nfew minutes you will receive the money\nto your bank account.</string>
+    <string name="next">Next</string>
+    <string name="instantly_receive_nmoney">Instantly receive\nmoney</string>
+    <string name="all_your_data_is_encrypted_and_securely_stored_your_data_belongs_to_you">All your data is encrypted and securely stored. Your data belongs to you.</string>
+    <string name="easy_to_visualize_nmonthly_costs">Easy to visualize\nmonthly costs</string>
+    <string name="no_hidden_cost_no_hidden_fees_all_the_data_is_easy_clear_and_to_the_point">No hidden cost. No hidden fees. All the data is easy clear and to the point.</string>
+    <string name="amount_you_want_to_borrow">Amount you want to borrow</string>
+    <string name="loan_amount">Loan amount</string>
+    <string name="yearly_interest_rate">Yearly Interest Rate</string>
+    <string name="interest_rate">Interest rate</string>
+    <string name="years_to_payback">Years to payback</string>
+    <string name="payback_time">Payback time</string>
+    <string name="_0_kr_month">0 kr / month</string>
+    <string name="calculate_mortgage">Calculate mortgage</string>
+</resources>
